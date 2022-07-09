@@ -1,4 +1,4 @@
-# Exercicios de Lógica de Programçaõ
+# Exercicios de Lógica de Programação
 
 ## Professor: José Ricardo
 
@@ -8,4 +8,4 @@
 
 _Adicionei alguns pdf's conforme foi passado pelo professor em sala de aula._
 
-**Qualquer dúvida, estou à disposição  no seguinte e-mail: maicon.santos89@hotmail.com**
+**Qualquer dúvida, estou à disposição no seguinte e-mail: maicon.santos89@hotmail.com**
