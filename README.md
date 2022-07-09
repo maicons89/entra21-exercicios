@@ -1,10 +1,10 @@
-# Exercicios de Lógica de Programação
+# Exercícios de Lógica de Programação
 
 ## Professor: José Ricardo
 
-# Exercicios
+# Exercícios
 
-*Durante o aprendizado de lógica de programação realizamos diversos exercicios.*  
+*Durante o aprendizado de lógica de programação realizamos diversos exercícios.*  
 
 _Adicionei alguns pdf's conforme foi passado pelo professor em sala de aula._
 
