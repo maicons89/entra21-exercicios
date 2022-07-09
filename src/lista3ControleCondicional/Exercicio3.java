@@ -20,24 +20,24 @@ public class Exercicio3 {
 		// TODO Auto-generated method stub
 
 		Scanner mostrarTeclado = new Scanner(System.in);
-		
+
 		System.out.println("Digite o nome do aluno:");
 		String nomeAluno = mostrarTeclado.nextLine();
-		
+
 		System.out.println("Frequencia1");
 		float frequencia1 = mostrarTeclado.nextFloat();
-		
+
 		System.out.println("Nota1");
 		float nota1 = mostrarTeclado.nextFloat();
-		if (nota1 >= 6 && frequencia1 >= 7){
+		if (nota1 >= 6 && frequencia1 >= 7) {
 			System.out.println("Aluno aprovado");
 		} else {
 			System.out.println("Aluno reprovado");
 		}
-		
+
 		System.out.println("Frequencia2");
 		float frequencia2 = mostrarTeclado.nextFloat();
-		
+
 		System.out.println("Nota2");
 		float nota2 = mostrarTeclado.nextFloat();
 		if (nota2 >= 6 && frequencia2 >= 7) {
@@ -45,7 +45,7 @@ public class Exercicio3 {
 		} else {
 			System.out.println("Aluno reprovado");
 		}
-		
+
 	}
 
 }

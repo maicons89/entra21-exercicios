@@ -20,7 +20,7 @@ public class Exercicio8 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Scanner mostrarTeclado = new Scanner(System.in);
 
 		System.out.println("Número do empregado");

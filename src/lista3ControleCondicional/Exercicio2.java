@@ -23,23 +23,22 @@ public class Exercicio2 {
 		// TODO Auto-generated method stub
 
 		Scanner mostrarTeclado = new Scanner(System.in);
-		
+
 		System.out.println("Qual a distância percorrida em KM da sua viagem?");
 		double distanciaPercorrida = mostrarTeclado.nextDouble();
-		
+
 		double precoPassagemAte200Km = (distanciaPercorrida * 0.50);
-		
+
 		double precoPassagemAcima200Km = (distanciaPercorrida * 0.45);
-		
-		
+
 		if (distanciaPercorrida <= 200) {
-			System.out.println("Você está prestes a começar uma vigem de " + distanciaPercorrida + "KM " + 
-		"o preço da sua passagem será de R$" + precoPassagemAte200Km);			
-		}	else {
-			System.out.println("Você está prestes a começar uma vigem de " + distanciaPercorrida + "KM " + 
-					"o preço da sua passagem será de R$" + precoPassagemAcima200Km);
-			
-		}		
+			System.out.println("Você está prestes a começar uma vigem de " + distanciaPercorrida + "KM "
+					+ "o preço da sua passagem será de R$" + precoPassagemAte200Km);
+		} else {
+			System.out.println("Você está prestes a começar uma vigem de " + distanciaPercorrida + "KM "
+					+ "o preço da sua passagem será de R$" + precoPassagemAcima200Km);
+
+		}
 	}
 
 }

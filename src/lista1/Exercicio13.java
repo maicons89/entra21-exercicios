@@ -1,6 +1,6 @@
-/** Dado o preço de um produto, o sistema deve calcular o preço com desconto de 5%.
+/** Dado o preï¿½o de um produto, o sistema deve calcular o preï¿½o com desconto de 5%.
  * Exemplo: Dado o valor R$ 546,00, o sistema deve mostrar a mensagem: O produto que custava
- * R$ 546,00, na promoção com desconto de 5% seu produto ficará R$ 518,70.
+ * R$ 546,00, na promoï¿½ï¿½o com desconto de 5% seu produto ficarï¿½ R$ 518,70.
  * 
  */
 package lista1;
@@ -22,12 +22,12 @@ public class Exercicio13 {
 		Scanner mostrarTeclado = new Scanner(System.in);
 
 		System.out.println("Qual o preço do produto?");
-		float preçoProduto = mostrarTeclado.nextFloat();
+		float precoPoduto = mostrarTeclado.nextFloat();
 
-		float desconto = preçoProduto - (preçoProduto * 0.05f);
+		float desconto = precoPoduto - (precoPoduto * 0.05f);
 
-		System.out.println("O prouto que custava R$ " + preçoProduto
-				+ " , na promoção com desconto de 5%, seu produto ficará R$ " + desconto);
+		System.out.println("O prouto que custava R$ " + precoPoduto
+				+ " , na promoção com desconto de 5%, seu produto ficaria R$ " + desconto);
 
 	}
 }

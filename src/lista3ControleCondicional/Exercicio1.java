@@ -23,24 +23,24 @@ public class Exercicio1 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Scanner mostrarTeclado = new Scanner(System.in);
-		
+
 		System.out.println("Insira a velocidade do carro");
 		int velocidadeDoCarro = mostrarTeclado.nextInt();
-		
+
 		int velocidadePardal = (velocidadeDoCarro - 80);
-		
+
 		double valorDaMulta = (7.00 * velocidadePardal);
-		
+
 		if (velocidadeDoCarro > 80) {
 			System.out.println("Você foi multado");
-			
+
 			System.out.println("Você deve pagar o valor de R$ " + valorDaMulta);
 		} else {
 			System.out.println("Muito bem! Tudo certo! Dirija com segurança");
 		}
-		
+
 	}
 
 }
